@@ -119,7 +119,7 @@ class CustomBotException(Exception):
 
 
 
-TOKEN = 'MTEyMjkxMjU5MjkyNzY2MjI2Mg.GCr9jT._hFc6WLykSK4fvGLYjzSFnpVL8ydwOJpx6TVGo'
+TOKEN = DISCORD_ID
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents,case_insensitive=True)
 
