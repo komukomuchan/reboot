@@ -2,7 +2,7 @@ import requests
 
 
 #プロキシ
-KEY = ACCESS_CLASH_ROYALE_API_KEY
+KEY = ${{secrets.ACCESS_CLASH_ROYALE_API_KEY}}
 
 
 
